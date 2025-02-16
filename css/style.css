@@ -1,5 +1,27 @@
-@import url(https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@100;200;300;400;500;600;800;900&display=swap);
-
+/* dm-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/dm-sans-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* dm-sans-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/dm-sans-v15-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* dm-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/dm-sans-v15-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
 
 
 :root {
@@ -33,6 +55,7 @@ html {
 
 body {
     height: 100%;
+    font-family: 'DM Sans',sans-serif;
 }
 
 .container {
@@ -99,6 +122,7 @@ textarea {
     padding: 20px;
     font-size: 20px;
     font-weight: 400;
+    resize: none;
 }
 
 form {
