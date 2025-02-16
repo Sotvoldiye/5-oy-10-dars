@@ -24,27 +24,21 @@
   }
 
 
-:root {
-    /* Background colors */
+/* :root {
+ 
     --white-bg-color: #fff;
     --gray-bg-color: #fafafa;
     --blue-bg-color: #2b3844;
     --dark-bg-color: #202c36;
-    /* Colors */
+
     --blue-text-color: #111517;
     --plasecholor-color: #848484;
     --white-text-color: #fff;
-    /* Fonts */
-    --nurito-sans: "Nunito Sans", "Arial", sans-serif;
-}
+} */
 
 .dark-mode {
-    /* Background colors */
-    --white-bg-color: #2b3844;
-    --gray-bg-color: #202c36;
-    /* Colors */
-    --blue-text-color: #fff;
-    --white-text-color: #fff;
+    background-color: rgba(18, 19, 26, 1);
+    color: #fff;
 }
 
 html {
@@ -61,7 +55,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    margin: 0 225px;
+    margin:0 225px;
     margin-top: 35px;
 }
 
@@ -84,8 +78,22 @@ header {
 #dark-mode {
     padding: 11px;
     border-radius: 8px;
-    background-color: rgba(242, 242, 247, 1);
+    border: none;
+    background-color:rgba(242, 242, 247, 1);
 }
+
+#light-mode{
+    padding: 11px;
+    border-radius: 8px;
+    border: none;
+    background-color:rgba(42, 43, 55, 1);
+}
+
+button{
+    background-color: transparent;
+    color:#fff;
+}
+
 
 .title {
     margin-top: 48px;
@@ -289,7 +297,7 @@ form .form-text {
 
 }
 
-@media (max-width: 768px),(min-width:375px){
+@media (max-width: 768px){
 
     .container{
         margin: 0 32px;
@@ -302,6 +310,14 @@ form .form-text {
     }
     header{
         margin-top: 16px;
+    }
+    .title {
+        margin-top: 48px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -1px;
+        text-align: center;
     }
     form {
         display: flex;
