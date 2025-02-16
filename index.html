@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="container">
+    <header>
+        <div class="logo">
+            <img src="./images/Logo mark.svg" alt="">
+            <p>Character Counter</p>
+        </div>
+        <img id="dark-mode" src="./images/Settings Icon.svg" width="19" alt="">
+    </header>
+    <main>
+        <div class="title-side">
+            <h1 class="title">
+                Analyze your text <br> in real-time.
+            </h1>
+        </div>
+        <textarea id="text-area" placeholder="Start typing here… (or paste your text)"></textarea>
+
+
+        <form>
+            <div class="input-checkbox">
+                <div class="chekbox1">
+                    <input type="checkbox">
+                    <p>Exclude Spaces</p>
+                </div>
+                <div class="chekbox1">
+                    <input type="checkbox">
+                    <p>Set Character Limit</p>
+                </div>
+            </div>
+            <p class="form-text">Approx. reading time: 0 minute</p>
+        </form>
+
+        <div class="card-section">
+            <div class="card1">
+                    <div class="card-text">
+                        <p class="number">00</p>
+                        <p class="card-title">
+                            Total Characters
+                        </p>
+                    </div>
+                    <!-- <img src="./images/shape-95.svg" width="150" height="" alt="">
+             -->
+            </div>
+            <div class="card2">
+               <div class="card-text">
+                <p class="number">00</p>
+                <p class="card-title">
+                    Word Count
+                </p>
+               </div>
+            </div>
+            <div class="card3">
+                <div class="card-text">
+                <p class="number">00</p>
+                <p class="card-title">
+                    Sentence Count
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="LetterDensity">
+            <p class="title1">
+                Letter Density
+            </p>
+            <p class="no-letter">
+                No characters found. Start typing to see letter density.
+            </p>
+            <div class="letter-resarch">
+                <div class="progress-list">
+                    <span class="label">E</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 16%;"></div>
+                    </div>
+                    <span class="percentage">40(16.06%)</span>
+                </div>
+                <div class="progress-list">
+                    <span class="label">B</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 26%;"></div>
+                    </div>
+                    <span class="percentage">40(16.06%)</span>
+                </div>
+                <div class="seeMore">
+                    <p class="see-more">
+                        See more 
+                    </p>
+                    <img src="./images/Title.svg" alt="">
+                </div>
+            </div>
+           
+        </div>
+    </main>
+</body>
+
+</html>

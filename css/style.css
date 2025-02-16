@@ -1,0 +1,329 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+
+:root {
+    /* Background colors */
+    --white-bg-color: #fff;
+    --gray-bg-color: #fafafa;
+    --blue-bg-color: #2b3844;
+    --dark-bg-color: #202c36;
+    /* Colors */
+    --blue-text-color: #111517;
+    --plasecholor-color: #848484;
+    --white-text-color: #fff;
+    /* Fonts */
+    --nurito-sans: "Nunito Sans", "Arial", sans-serif;
+}
+
+.dark-mode {
+    /* Background colors */
+    --white-bg-color: #2b3844;
+    --gray-bg-color: #202c36;
+    /* Colors */
+    --blue-text-color: #fff;
+    --white-text-color: #fff;
+}
+
+html {
+    height: 100%;
+    object-fit: contain;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 225px;
+    margin-top: 35px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    gap: 12px;
+}
+
+.logo p {
+    font-weight: 700;
+
+}
+
+#dark-mode {
+    padding: 11px;
+    border-radius: 8px;
+    background-color: rgba(242, 242, 247, 1);
+}
+
+.title {
+    margin-top: 48px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title-side {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text-area {
+    height: 200px;
+    background-color: rgba(228, 228, 239, 1);
+    border: none;
+    border-radius: 12px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+textarea {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-checkbox {
+    display: flex;
+    gap: 24px;
+}
+
+form .form-text {
+    margin-left: auto;
+}
+
+.chekbox1 {
+    display: flex;
+    gap: 10px;
+}
+
+.card-section {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    gap: 16px;
+    margin-top: 48px;
+}
+
+.card1 {
+    display: flex;
+    background-color: rgba(211, 160, 250, 1);
+    padding-top: 26.5px;
+    padding-left: 16px;
+    padding-right: auto;
+    background-image: url(../images/shape-95.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.card2 {
+    display: flex;
+    background-color: rgba(255, 159, 0, 1);
+    padding-top: 26.5px;
+    padding-left: 16px;
+    padding-right: auto;
+    background-image: url(../images/shape-29.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.card3 {
+    display: flex;
+    background-color: rgba(254, 129, 89, 1);
+    padding-top: 26.5px;
+    padding-left: 16px;
+    padding-right: auto;
+    background-image: url(../images/shape-111.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.card-text {
+    margin-right: auto;
+}
+
+.number {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+/* .card1 img {
+    margin-left: auto;
+} */
+
+.card-title {
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 26.5px;
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.6px;
+
+}
+
+.LetterDensity {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31.2px;
+    letter-spacing: -1px;
+}
+
+.letter-resarch {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 64px;
+}
+
+.no-letter {
+    display: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    letter-spacing: -0.6px;
+    color: rgba(64, 66, 84, 1);
+}
+
+.progress-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.label {
+    width: 15px;
+    font-weight: bold;
+}
+
+.progress-bar {
+    position: relative;
+    width: 90%;
+    height: 10px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.percentage {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20.8px;
+    letter-spacing: -0.6px;
+
+}
+
+.progress {
+    height: 100%;
+    background: #c59eff;
+    border-radius: 5px;
+}
+
+.seeMore {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 8px;
+}
+
+.see-more {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.6px;
+
+}
+
+@media (max-width: 768px),(min-width:375px){
+
+    .container{
+        margin: 0 32px;
+    }
+}
+
+@media (max-width:375px){
+    .container{
+        margin: 0 16px;
+    }
+    header{
+        margin-top: 16px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:left;  
+        gap: 12px;
+        margin-top: 16px;
+      }
+      form p{
+        margin: 0;
+      }
+    .input-checkbox {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 0;
+        justify-content: left;
+        margin-left: 0;
+        margin-right: auto;
+    }
+    
+    form .form-text {
+        margin-left: 0;
+        margin-right: auto;
+    }
+    
+    .chekbox1 {
+        display: flex;
+        justify-content: left;
+        gap: 10px;
+        margin: 0;
+    }
+    
+    .chekbox1 input, .chekbox1 p{
+        margin: 0;
+        padding: 0;
+    }
+
+    .card-section{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .letter-resarch {
+
+        margin-bottom: 32px;
+    }
+}
